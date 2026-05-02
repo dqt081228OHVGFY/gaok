@@ -128,9 +128,9 @@ router.get("/score-query", (req, res) => {
 
     const diff = userScore - s.min_score;
     let chance: string;
-    if (diff >= 20) chance = "稳妥";
-    else if (diff >= -10) chance = "冲刺";
-    else chance = "保底";
+    if (diff >= 30) chance = "保底";
+    else if (diff >= 0) chance = "稳妥";
+    else chance = "冲刺";
 
     if (diff >= -30) {
       scored.push({ university: uni, score: s, scoreDiff: diff, chance });

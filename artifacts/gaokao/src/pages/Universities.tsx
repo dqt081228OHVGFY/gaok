@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "wouter";
+import { motion, AnimatePresence } from "framer-motion";
 import { Search, SlidersHorizontal, MapPin, ChevronLeft, ChevronRight } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -22,6 +23,16 @@ function TagBadge({ tag }: { tag: string }) {
 }
 
 const PROVINCES = ["北京","天津","上海","重庆","河北","山西","辽宁","吉林","黑龙江","江苏","浙江","安徽","福建","江西","山东","河南","湖北","湖南","广东","海南","四川","贵州","云南","陕西","甘肃","青海","内蒙古","广西","西藏","宁夏","新疆"];
+
+const gridVariants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.055 } },
+};
+
+const cardVariant = {
+  hidden: { opacity: 0, y: 20, scale: 0.97 },
+  show: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.38, ease: [0.22, 1, 0.36, 1] } },
+};
 
 export default function Universities() {
   const [search, setSearch] = useState("");
@@ -57,7 +68,12 @@ export default function Universities() {
   }
 
   return (
-    <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+    <motion.main
+      className="max-w-7xl mx-auto px-4 sm:px-6 py-8"
+      initial={{ opacity: 0, y: 12 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4 }}
+    >
       <div className="mb-6">
         <h1 className="text-2xl font-bold mb-1">高校库</h1>
         <p className="text-muted-foreground text-sm">收录全国258所重点高校，含985、211、双一流详细信息</p>
@@ -73,9 +89,11 @@ export default function Universities() {
             className="flex-1"
             data-testid="input-search-universities"
           />
-          <Button onClick={handleSearch} data-testid="button-search-universities">
-            <Search className="h-4 w-4" />
-          </Button>
+          <motion.div whileHover={{ scale: 1.06 }} whileTap={{ scale: 0.94 }} transition={{ type: "spring", stiffness: 420, damping: 18 }}>
+            <Button onClick={handleSearch} data-testid="button-search-universities">
+              <Search className="h-4 w-4" />
+            </Button>
+          </motion.div>
         </div>
         <div className="flex flex-wrap gap-2">
           <Select value={province} onValueChange={(v) => { setProvince(v); setPage(1); }}>
@@ -124,56 +142,91 @@ export default function Universities() {
         <Button variant="ghost" size="sm" onClick={resetFilters} data-testid="button-reset-filters">重置</Button>
       </div>
 
-      {isLoading ? (
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {Array.from({ length: 9 }).map((_, i) => (
-            <Skeleton key={i} className="h-36 rounded-xl" />
-          ))}
-        </div>
-      ) : data ? (
-        <>
-          <p className="text-sm text-muted-foreground mb-4">共找到 <strong>{data.total}</strong> 所院校</p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {data.items.map((uni) => (
-              <Link key={uni.id} href={`/universities/${uni.id}`}>
-                <Card className="h-full cursor-pointer hover:border-primary/50 hover:shadow-md transition-all group" data-testid={`uni-card-${uni.id}`}>
-                  <CardContent className="p-5">
-                    <div className="flex items-start justify-between gap-2 mb-2">
-                      <h3 className="font-semibold text-base leading-snug group-hover:text-primary transition-colors">{uni.name}</h3>
-                      {uni.rank_soft ? (
-                        <span className="shrink-0 text-xs text-muted-foreground bg-muted px-1.5 py-0.5 rounded">#{uni.rank_soft}</span>
-                      ) : null}
-                    </div>
-                    <div className="flex items-center gap-1 text-xs text-muted-foreground mb-3">
-                      <MapPin className="h-3 w-3" />
-                      <span>{uni.province} · {uni.city}</span>
-                      <span className="mx-1">·</span>
-                      <span>{uni.type}</span>
-                    </div>
-                    <div className="flex flex-wrap gap-1">
-                      {uni.tags?.slice(0, 4).map((t) => (
-                        <TagBadge key={t} tag={t} />
-                      ))}
-                    </div>
-                  </CardContent>
-                </Card>
-              </Link>
+      <AnimatePresence mode="wait">
+        {isLoading ? (
+          <motion.div
+            key="skeleton"
+            className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            {Array.from({ length: 9 }).map((_, i) => (
+              <Skeleton key={i} className="h-36 rounded-xl" />
             ))}
-          </div>
+          </motion.div>
+        ) : data ? (
+          <motion.div
+            key={`${page}-${sortBy}-${province}-${type}-${tag}-${search}`}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.25 }}
+          >
+            <p className="text-sm text-muted-foreground mb-4">共找到 <strong>{data.total}</strong> 所院校</p>
+            <motion.div
+              className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"
+              variants={gridVariants}
+              initial="hidden"
+              animate="show"
+            >
+              {data.items.map((uni) => (
+                <motion.div key={uni.id} variants={cardVariant}>
+                  <Link href={`/universities/${uni.id}`}>
+                    <motion.div
+                      whileHover={{ y: -3, boxShadow: "0 8px 30px rgba(0,0,0,0.1)" }}
+                      transition={{ type: "spring", stiffness: 300, damping: 22 }}
+                    >
+                      <Card className="h-full cursor-pointer hover:border-primary/50 transition-colors group" data-testid={`uni-card-${uni.id}`}>
+                        <CardContent className="p-5">
+                          <div className="flex items-start justify-between gap-2 mb-2">
+                            <h3 className="font-semibold text-base leading-snug group-hover:text-primary transition-colors">{uni.name}</h3>
+                            {uni.rank_soft ? (
+                              <span className="shrink-0 text-xs text-muted-foreground bg-muted px-1.5 py-0.5 rounded">#{uni.rank_soft}</span>
+                            ) : null}
+                          </div>
+                          <div className="flex items-center gap-1 text-xs text-muted-foreground mb-3">
+                            <MapPin className="h-3 w-3" />
+                            <span>{uni.province} · {uni.city}</span>
+                            <span className="mx-1">·</span>
+                            <span>{uni.type}</span>
+                          </div>
+                          <div className="flex flex-wrap gap-1">
+                            {uni.tags?.slice(0, 4).map((t) => (
+                              <TagBadge key={t} tag={t} />
+                            ))}
+                          </div>
+                        </CardContent>
+                      </Card>
+                    </motion.div>
+                  </Link>
+                </motion.div>
+              ))}
+            </motion.div>
 
-          {data.totalPages > 1 && (
-            <div className="flex items-center justify-center gap-3 mt-8">
-              <Button variant="outline" size="sm" onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1} data-testid="button-prev-page">
-                <ChevronLeft className="h-4 w-4" />
-              </Button>
-              <span className="text-sm text-muted-foreground">第 {page} / {data.totalPages} 页</span>
-              <Button variant="outline" size="sm" onClick={() => setPage(p => Math.min(data.totalPages, p + 1))} disabled={page === data.totalPages} data-testid="button-next-page">
-                <ChevronRight className="h-4 w-4" />
-              </Button>
-            </div>
-          )}
-        </>
-      ) : null}
-    </main>
+            {data.totalPages > 1 && (
+              <motion.div
+                className="flex items-center justify-center gap-3 mt-8"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.3 }}
+              >
+                <motion.div whileHover={{ scale: 1.08 }} whileTap={{ scale: 0.93 }}>
+                  <Button variant="outline" size="sm" onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1} data-testid="button-prev-page">
+                    <ChevronLeft className="h-4 w-4" />
+                  </Button>
+                </motion.div>
+                <span className="text-sm text-muted-foreground">第 {page} / {data.totalPages} 页</span>
+                <motion.div whileHover={{ scale: 1.08 }} whileTap={{ scale: 0.93 }}>
+                  <Button variant="outline" size="sm" onClick={() => setPage(p => Math.min(data.totalPages, p + 1))} disabled={page === data.totalPages} data-testid="button-next-page">
+                    <ChevronRight className="h-4 w-4" />
+                  </Button>
+                </motion.div>
+              </motion.div>
+            )}
+          </motion.div>
+        ) : null}
+      </AnimatePresence>
+    </motion.main>
   );
 }

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useSearch } from "wouter";
 import { Link } from "wouter";
-import { Search, TrendingUp, Target, Shield, ChevronLeft, ChevronRight } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Search, TrendingUp, Target, Shield, ChevronLeft, ChevronRight, Sparkles } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -22,6 +23,15 @@ const TAG_COLORS: Record<string, string> = {
   "211": "bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-400",
   "双一流A": "bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400",
   "双一流B": "bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400",
+};
+
+const cardVariants = {
+  hidden: { opacity: 0, y: 16 },
+  show: (i: number) => ({
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.35, delay: i * 0.045, ease: [0.22, 1, 0.36, 1] },
+  }),
 };
 
 export default function ScoreQuery() {
@@ -69,7 +79,12 @@ export default function ScoreQuery() {
   }
 
   return (
-    <main className="max-w-5xl mx-auto px-4 sm:px-6 py-8">
+    <motion.main
+      className="max-w-5xl mx-auto px-4 sm:px-6 py-8"
+      initial={{ opacity: 0, y: 12 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4 }}
+    >
       <div className="mb-6">
         <h1 className="text-2xl font-bold mb-1">按分数查询院校</h1>
         <p className="text-sm text-muted-foreground">根据你的分数和省份，查找可报考的院校，按冲刺/稳妥/保底分类展示</p>
@@ -147,98 +162,177 @@ export default function ScoreQuery() {
             </Select>
             <div className="flex gap-2 ml-auto">
               <Button variant="outline" size="sm" onClick={reset} data-testid="button-reset">重置</Button>
-              <Button onClick={handleQuery} disabled={!score || !province} data-testid="button-query">
-                <Search className="h-4 w-4 mr-1.5" /> 查询
-              </Button>
+              <motion.div
+                whileHover={{ scale: 1.06 }}
+                whileTap={{ scale: 0.94 }}
+                transition={{ type: "spring", stiffness: 420, damping: 18 }}
+              >
+                <Button
+                  onClick={handleQuery}
+                  disabled={!score || !province}
+                  data-testid="button-query"
+                  className="relative overflow-hidden"
+                >
+                  <motion.span
+                    className="flex items-center gap-1.5"
+                    animate={!score || !province ? {} : { x: [0, 0] }}
+                  >
+                    <Search className="h-4 w-4" /> 查询
+                  </motion.span>
+                  {score && province && (
+                    <motion.span
+                      className="absolute inset-0 bg-white/20 rounded"
+                      initial={{ scale: 0, opacity: 0.6 }}
+                      animate={{ scale: 2.5, opacity: 0 }}
+                      transition={{ duration: 0.5, repeat: Infinity, repeatDelay: 2 }}
+                    />
+                  )}
+                </Button>
+              </motion.div>
             </div>
           </div>
         </CardContent>
       </Card>
 
-      {!queried && (
-        <div className="text-center py-20 text-muted-foreground">
-          <Search className="h-12 w-12 mx-auto mb-3 opacity-30" />
-          <p>请输入分数和省份后点击查询</p>
-        </div>
-      )}
+      <AnimatePresence mode="wait">
+        {!queried && (
+          <motion.div
+            key="empty"
+            className="text-center py-20 text-muted-foreground"
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.3 }}
+          >
+            <motion.div
+              animate={{ y: [0, -6, 0] }}
+              transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
+            >
+              <Sparkles className="h-12 w-12 mx-auto mb-3 opacity-30" />
+            </motion.div>
+            <p className="font-medium mb-1">输入分数和省份开始查询</p>
+            <p className="text-sm">系统将自动按冲刺 / 稳妥 / 保底分类推荐院校</p>
+          </motion.div>
+        )}
 
-      {queried && isLoading && (
-        <div className="space-y-3">
-          {Array.from({ length: 6 }).map((_, i) => <Skeleton key={i} className="h-24 rounded-xl" />)}
-        </div>
-      )}
+        {queried && isLoading && (
+          <motion.div
+            key="loading"
+            className="space-y-3"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            {Array.from({ length: 6 }).map((_, i) => <Skeleton key={i} className="h-24 rounded-xl" />)}
+          </motion.div>
+        )}
 
-      {queried && data && (
-        <>
-          <div className="flex items-center justify-between mb-4">
-            <p className="text-sm text-muted-foreground">
-              {province} · <strong className="text-foreground">{score}分</strong> · 共找到 <strong className="text-foreground">{data.total}</strong> 所匹配院校
-            </p>
-          </div>
+        {queried && data && (
+          <motion.div
+            key="results"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.3 }}
+          >
+            <div className="flex items-center justify-between mb-4">
+              <p className="text-sm text-muted-foreground">
+                {province} · <strong className="text-foreground">{score}分</strong> · 共找到 <strong className="text-foreground">{data.total}</strong> 所匹配院校
+              </p>
+            </div>
 
-          {(["冲刺","稳妥","保底"] as const).map((chance) => {
-            const items = data.items.filter((i: any) => i.chance === chance);
-            if (items.length === 0) return null;
-            const cfg = CHANCE_CONFIG[chance];
-            const Icon = cfg.icon;
-            return (
-              <div key={chance} className="mb-6">
-                <div className="flex items-center gap-2 mb-3">
-                  <Icon className={`h-4 w-4 ${cfg.color}`} />
-                  <h2 className="font-semibold text-sm">{chance}院校</h2>
-                  <span className="text-xs text-muted-foreground border rounded-full px-2 py-0.5">{items.length}所</span>
-                </div>
-                <div className="space-y-2">
-                  {items.map((item: any, idx: number) => (
-                    <Link key={idx} href={`/universities/${item.university.id}`}>
-                      <div className={`flex items-center gap-3 p-3 rounded-lg border cursor-pointer hover:shadow-sm transition-all ${cfg.bg}`} data-testid={`result-card-${item.university.id}`}>
-                        <div className="flex-1 min-w-0">
-                          <div className="flex items-center gap-2 mb-1 flex-wrap">
-                            <span className="font-medium text-sm">{item.university.name}</span>
-                            <div className="flex gap-1">
-                              {item.university.tags?.slice(0,2).filter((t: string) => TAG_COLORS[t]).map((t: string) => (
-                                <span key={t} className={`inline-flex items-center rounded px-1 py-0.5 text-xs font-medium ${TAG_COLORS[t]}`}>{t}</span>
-                              ))}
+            {(["冲刺","稳妥","保底"] as const).map((chance) => {
+              const items = data.items.filter((i: any) => i.chance === chance);
+              if (items.length === 0) return null;
+              const cfg = CHANCE_CONFIG[chance];
+              const Icon = cfg.icon;
+              return (
+                <motion.div
+                  key={chance}
+                  className="mb-6"
+                  initial={{ opacity: 0, y: 16 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.4 }}
+                >
+                  <div className="flex items-center gap-2 mb-3">
+                    <Icon className={`h-4 w-4 ${cfg.color}`} />
+                    <h2 className="font-semibold text-sm">{chance}院校</h2>
+                    <span className="text-xs text-muted-foreground border rounded-full px-2 py-0.5">{items.length}所</span>
+                  </div>
+                  <div className="space-y-2">
+                    {items.map((item: any, idx: number) => (
+                      <motion.div
+                        key={idx}
+                        custom={idx}
+                        variants={cardVariants}
+                        initial="hidden"
+                        animate="show"
+                      >
+                        <Link href={`/universities/${item.university.id}`}>
+                          <motion.div
+                            className={`flex items-center gap-3 p-3 rounded-lg border cursor-pointer transition-shadow ${cfg.bg}`}
+                            whileHover={{ scale: 1.015, boxShadow: "0 4px 20px rgba(0,0,0,0.08)" }}
+                            whileTap={{ scale: 0.99 }}
+                            transition={{ type: "spring", stiffness: 350, damping: 22 }}
+                            data-testid={`result-card-${item.university.id}`}
+                          >
+                            <div className="flex-1 min-w-0">
+                              <div className="flex items-center gap-2 mb-1 flex-wrap">
+                                <span className="font-medium text-sm">{item.university.name}</span>
+                                <div className="flex gap-1">
+                                  {item.university.tags?.slice(0,2).filter((t: string) => TAG_COLORS[t]).map((t: string) => (
+                                    <span key={t} className={`inline-flex items-center rounded px-1 py-0.5 text-xs font-medium ${TAG_COLORS[t]}`}>{t}</span>
+                                  ))}
+                                </div>
+                              </div>
+                              <div className="text-xs text-muted-foreground">
+                                {item.university.province} · {item.university.type} · {item.score.year}年最低 <strong>{item.score.min_score}分</strong>
+                              </div>
                             </div>
-                          </div>
-                          <div className="text-xs text-muted-foreground">
-                            {item.university.province} · {item.university.type} · {item.score.year}年最低 <strong>{item.score.min_score}分</strong>
-                          </div>
-                        </div>
-                        <div className="text-right shrink-0">
-                          <div className={`text-lg font-bold ${cfg.color}`}>
-                            {item.scoreDiff >= 0 ? "+" : ""}{item.scoreDiff}
-                          </div>
-                          <div className="text-xs text-muted-foreground">分差</div>
-                        </div>
-                      </div>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            );
-          })}
+                            <div className="text-right shrink-0">
+                              <div className={`text-lg font-bold ${cfg.color}`}>
+                                {item.scoreDiff >= 0 ? "+" : ""}{item.scoreDiff}
+                              </div>
+                              <div className="text-xs text-muted-foreground">分差</div>
+                            </div>
+                          </motion.div>
+                        </Link>
+                      </motion.div>
+                    ))}
+                  </div>
+                </motion.div>
+              );
+            })}
 
-          {data.total === 0 && (
-            <div className="text-center py-16 text-muted-foreground">
-              <p className="text-base mb-2">未找到匹配的院校</p>
-              <p className="text-sm">请尝试调整分数范围或切换年份/科类</p>
-            </div>
-          )}
+            {data.total === 0 && (
+              <motion.div
+                className="text-center py-16 text-muted-foreground"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+              >
+                <p className="text-base mb-2">未找到匹配的院校</p>
+                <p className="text-sm">请尝试调整分数范围或切换年份/科类</p>
+              </motion.div>
+            )}
 
-          {data.totalPages > 1 && (
-            <div className="flex items-center justify-center gap-3 mt-6">
-              <Button variant="outline" size="sm" onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1} data-testid="button-prev">
-                <ChevronLeft className="h-4 w-4" />
-              </Button>
-              <span className="text-sm text-muted-foreground">第 {page} / {data.totalPages} 页</span>
-              <Button variant="outline" size="sm" onClick={() => setPage(p => Math.min(data.totalPages, p + 1))} disabled={page === data.totalPages} data-testid="button-next">
-                <ChevronRight className="h-4 w-4" />
-              </Button>
-            </div>
-          )}
-        </>
-      )}
-    </main>
+            {data.totalPages > 1 && (
+              <motion.div
+                className="flex items-center justify-center gap-3 mt-6"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.2 }}
+              >
+                <Button variant="outline" size="sm" onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1} data-testid="button-prev">
+                  <ChevronLeft className="h-4 w-4" />
+                </Button>
+                <span className="text-sm text-muted-foreground">第 {page} / {data.totalPages} 页</span>
+                <Button variant="outline" size="sm" onClick={() => setPage(p => Math.min(data.totalPages, p + 1))} disabled={page === data.totalPages} data-testid="button-next">
+                  <ChevronRight className="h-4 w-4" />
+                </Button>
+              </motion.div>
+            )}
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.main>
   );
 }
