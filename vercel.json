@@ -1,6 +1,7 @@
 {
-  "buildCommand": "pnpm --filter @workspace/gaokao run build",
-  "outputDirectory": "artifacts/gaokao/dist/public",
+  "installCommand": "pnpm install",
+  "buildCommand": "pnpm --filter @workspace/gaokao run build && cp -r artifacts/gaokao/dist/public public",
+  "outputDirectory": "public",
   "framework": null,
   "functions": {
     "api/**/*.ts": {
