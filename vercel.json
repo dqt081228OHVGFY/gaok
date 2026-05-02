@@ -1,8 +1,8 @@
 {
-  "installCommand": "pnpm install",
-  "buildCommand": "pnpm --filter @workspace/gaokao run build && cp -r artifacts/gaokao/dist/public public",
-  "outputDirectory": "public",
+  "buildCommand": "pnpm --filter @workspace/gaokao run build",
+  "outputDirectory": "artifacts/gaokao/dist/public",
   "framework": null,
+  "installCommand": "corepack enable && pnpm install",
   "functions": {
     "api/**/*.ts": {
       "includeFiles": "data/raw/**"
