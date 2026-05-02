@@ -1,0 +1,13 @@
+{
+  "buildCommand": "pnpm --filter @workspace/gaokao run build",
+  "outputDirectory": "artifacts/gaokao/dist/public",
+  "framework": null,
+  "functions": {
+    "api/**/*.ts": {
+      "includeFiles": "data/raw/**"
+    }
+  },
+  "rewrites": [
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}
