@@ -1,0 +1,1850 @@
+[
+  {
+    "province": "北京",
+    "year": 2024,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 434
+  },
+  {
+    "province": "北京",
+    "year": 2023,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 428
+  },
+  {
+    "province": "北京",
+    "year": 2022,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 430
+  },
+  {
+    "province": "北京",
+    "year": 2021,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 400
+  },
+  {
+    "province": "北京",
+    "year": 2020,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 436
+  },
+  {
+    "province": "上海",
+    "year": 2024,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 405
+  },
+  {
+    "province": "上海",
+    "year": 2023,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 405
+  },
+  {
+    "province": "上海",
+    "year": 2022,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 400
+  },
+  {
+    "province": "上海",
+    "year": 2021,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 400
+  },
+  {
+    "province": "上海",
+    "year": 2020,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 400
+  },
+  {
+    "province": "天津",
+    "year": 2024,
+    "batch": "本科A",
+    "subjects": "综合",
+    "score": 463
+  },
+  {
+    "province": "天津",
+    "year": 2023,
+    "batch": "本科A",
+    "subjects": "综合",
+    "score": 476
+  },
+  {
+    "province": "天津",
+    "year": 2022,
+    "batch": "本科A",
+    "subjects": "综合",
+    "score": 463
+  },
+  {
+    "province": "天津",
+    "year": 2021,
+    "batch": "本科A",
+    "subjects": "综合",
+    "score": 461
+  },
+  {
+    "province": "天津",
+    "year": 2020,
+    "batch": "本科A",
+    "subjects": "综合",
+    "score": 476
+  },
+  {
+    "province": "浙江",
+    "year": 2024,
+    "batch": "一段",
+    "subjects": "综合",
+    "score": 488
+  },
+  {
+    "province": "浙江",
+    "year": 2023,
+    "batch": "一段",
+    "subjects": "综合",
+    "score": 489
+  },
+  {
+    "province": "浙江",
+    "year": 2022,
+    "batch": "一段",
+    "subjects": "综合",
+    "score": 495
+  },
+  {
+    "province": "浙江",
+    "year": 2021,
+    "batch": "一段",
+    "subjects": "综合",
+    "score": 490
+  },
+  {
+    "province": "浙江",
+    "year": 2020,
+    "batch": "一段",
+    "subjects": "综合",
+    "score": 594
+  },
+  {
+    "province": "河北",
+    "year": 2024,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 443
+  },
+  {
+    "province": "河北",
+    "year": 2023,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 430
+  },
+  {
+    "province": "河北",
+    "year": 2022,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 430
+  },
+  {
+    "province": "河北",
+    "year": 2021,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 415
+  },
+  {
+    "province": "河北",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 536
+  },
+  {
+    "province": "河北",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 548
+  },
+  {
+    "province": "河北",
+    "year": 2020,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 431
+  },
+  {
+    "province": "河北",
+    "year": 2020,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 465
+  },
+  {
+    "province": "山西",
+    "year": 2024,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 430
+  },
+  {
+    "province": "山西",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 480
+  },
+  {
+    "province": "山西",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 490
+  },
+  {
+    "province": "山西",
+    "year": 2023,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 380
+  },
+  {
+    "province": "山西",
+    "year": 2023,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 380
+  },
+  {
+    "province": "山西",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 486
+  },
+  {
+    "province": "山西",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 489
+  },
+  {
+    "province": "山西",
+    "year": 2022,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 400
+  },
+  {
+    "province": "山西",
+    "year": 2022,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 400
+  },
+  {
+    "province": "山西",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 480
+  },
+  {
+    "province": "山西",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 477
+  },
+  {
+    "province": "山西",
+    "year": 2021,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 380
+  },
+  {
+    "province": "山西",
+    "year": 2021,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 380
+  },
+  {
+    "province": "山西",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 518
+  },
+  {
+    "province": "山西",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 533
+  },
+  {
+    "province": "辽宁",
+    "year": 2024,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 404
+  },
+  {
+    "province": "辽宁",
+    "year": 2023,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 390
+  },
+  {
+    "province": "辽宁",
+    "year": 2022,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 360
+  },
+  {
+    "province": "辽宁",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 456
+  },
+  {
+    "province": "辽宁",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 478
+  },
+  {
+    "province": "辽宁",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 480
+  },
+  {
+    "province": "辽宁",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 507
+  },
+  {
+    "province": "吉林",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 463
+  },
+  {
+    "province": "吉林",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 453
+  },
+  {
+    "province": "吉林",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 463
+  },
+  {
+    "province": "吉林",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 472
+  },
+  {
+    "province": "吉林",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 459
+  },
+  {
+    "province": "吉林",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 481
+  },
+  {
+    "province": "吉林",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 463
+  },
+  {
+    "province": "吉林",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 483
+  },
+  {
+    "province": "吉林",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 517
+  },
+  {
+    "province": "吉林",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 538
+  },
+  {
+    "province": "黑龙江",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 430
+  },
+  {
+    "province": "黑龙江",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 428
+  },
+  {
+    "province": "黑龙江",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 430
+  },
+  {
+    "province": "黑龙江",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 440
+  },
+  {
+    "province": "黑龙江",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 430
+  },
+  {
+    "province": "黑龙江",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 453
+  },
+  {
+    "province": "黑龙江",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 450
+  },
+  {
+    "province": "黑龙江",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 456
+  },
+  {
+    "province": "黑龙江",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 509
+  },
+  {
+    "province": "黑龙江",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 543
+  },
+  {
+    "province": "江苏",
+    "year": 2024,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 429
+  },
+  {
+    "province": "江苏",
+    "year": 2023,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 431
+  },
+  {
+    "province": "江苏",
+    "year": 2022,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 443
+  },
+  {
+    "province": "江苏",
+    "year": 2021,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 448
+  },
+  {
+    "province": "江苏",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 347
+  },
+  {
+    "province": "江苏",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 347
+  },
+  {
+    "province": "安徽",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 514
+  },
+  {
+    "province": "安徽",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 527
+  },
+  {
+    "province": "安徽",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 429
+  },
+  {
+    "province": "安徽",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 434
+  },
+  {
+    "province": "安徽",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 515
+  },
+  {
+    "province": "安徽",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 528
+  },
+  {
+    "province": "安徽",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 495
+  },
+  {
+    "province": "安徽",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 511
+  },
+  {
+    "province": "安徽",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 515
+  },
+  {
+    "province": "安徽",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 544
+  },
+  {
+    "province": "安徽",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 515
+  },
+  {
+    "province": "安徽",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 541
+  },
+  {
+    "province": "福建",
+    "year": 2024,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 431
+  },
+  {
+    "province": "福建",
+    "year": 2023,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 431
+  },
+  {
+    "province": "福建",
+    "year": 2022,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 431
+  },
+  {
+    "province": "福建",
+    "year": 2021,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 430
+  },
+  {
+    "province": "福建",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 483
+  },
+  {
+    "province": "福建",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 529
+  },
+  {
+    "province": "江西",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 518
+  },
+  {
+    "province": "江西",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 533
+  },
+  {
+    "province": "江西",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 430
+  },
+  {
+    "province": "江西",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 440
+  },
+  {
+    "province": "江西",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 518
+  },
+  {
+    "province": "江西",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 535
+  },
+  {
+    "province": "江西",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 527
+  },
+  {
+    "province": "江西",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 533
+  },
+  {
+    "province": "江西",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 540
+  },
+  {
+    "province": "江西",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 558
+  },
+  {
+    "province": "江西",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 541
+  },
+  {
+    "province": "江西",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 553
+  },
+  {
+    "province": "山东",
+    "year": 2024,
+    "batch": "一段",
+    "subjects": "综合",
+    "score": 437
+  },
+  {
+    "province": "山东",
+    "year": 2023,
+    "batch": "一段",
+    "subjects": "综合",
+    "score": 443
+  },
+  {
+    "province": "山东",
+    "year": 2022,
+    "batch": "一段",
+    "subjects": "综合",
+    "score": 449
+  },
+  {
+    "province": "山东",
+    "year": 2021,
+    "batch": "一段",
+    "subjects": "综合",
+    "score": 447
+  },
+  {
+    "province": "山东",
+    "year": 2020,
+    "batch": "一段",
+    "subjects": "综合",
+    "score": 449
+  },
+  {
+    "province": "河南",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 520
+  },
+  {
+    "province": "河南",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 530
+  },
+  {
+    "province": "河南",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 400
+  },
+  {
+    "province": "河南",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 400
+  },
+  {
+    "province": "河南",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 514
+  },
+  {
+    "province": "河南",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 527
+  },
+  {
+    "province": "河南",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 509
+  },
+  {
+    "province": "河南",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 527
+  },
+  {
+    "province": "河南",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 512
+  },
+  {
+    "province": "河南",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 537
+  },
+  {
+    "province": "河南",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 544
+  },
+  {
+    "province": "河南",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 556
+  },
+  {
+    "province": "湖北",
+    "year": 2024,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 426
+  },
+  {
+    "province": "湖北",
+    "year": 2023,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 424
+  },
+  {
+    "province": "湖北",
+    "year": 2022,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 426
+  },
+  {
+    "province": "湖北",
+    "year": 2021,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 397
+  },
+  {
+    "province": "湖北",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 521
+  },
+  {
+    "province": "湖北",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 526
+  },
+  {
+    "province": "湖南",
+    "year": 2024,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 428
+  },
+  {
+    "province": "湖南",
+    "year": 2023,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 428
+  },
+  {
+    "province": "湖南",
+    "year": 2022,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 415
+  },
+  {
+    "province": "湖南",
+    "year": 2021,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 415
+  },
+  {
+    "province": "湖南",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 529
+  },
+  {
+    "province": "湖南",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 550
+  },
+  {
+    "province": "广东",
+    "year": 2024,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 438
+  },
+  {
+    "province": "广东",
+    "year": 2023,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 439
+  },
+  {
+    "province": "广东",
+    "year": 2022,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 439
+  },
+  {
+    "province": "广东",
+    "year": 2021,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 432
+  },
+  {
+    "province": "广东",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 520
+  },
+  {
+    "province": "广东",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 542
+  },
+  {
+    "province": "广西",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 475
+  },
+  {
+    "province": "广西",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 528
+  },
+  {
+    "province": "广西",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 353
+  },
+  {
+    "province": "广西",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 380
+  },
+  {
+    "province": "广西",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 475
+  },
+  {
+    "province": "广西",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 528
+  },
+  {
+    "province": "广西",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 496
+  },
+  {
+    "province": "广西",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 528
+  },
+  {
+    "province": "广西",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 509
+  },
+  {
+    "province": "广西",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 542
+  },
+  {
+    "province": "广西",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 510
+  },
+  {
+    "province": "广西",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 548
+  },
+  {
+    "province": "海南",
+    "year": 2024,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 475
+  },
+  {
+    "province": "海南",
+    "year": 2023,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 472
+  },
+  {
+    "province": "海南",
+    "year": 2022,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 483
+  },
+  {
+    "province": "海南",
+    "year": 2021,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 463
+  },
+  {
+    "province": "海南",
+    "year": 2020,
+    "batch": "本科",
+    "subjects": "综合",
+    "score": 500
+  },
+  {
+    "province": "四川",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 521
+  },
+  {
+    "province": "四川",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 527
+  },
+  {
+    "province": "四川",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 434
+  },
+  {
+    "province": "四川",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 440
+  },
+  {
+    "province": "四川",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 520
+  },
+  {
+    "province": "四川",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 527
+  },
+  {
+    "province": "四川",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 515
+  },
+  {
+    "province": "四川",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 527
+  },
+  {
+    "province": "四川",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 518
+  },
+  {
+    "province": "四川",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 533
+  },
+  {
+    "province": "四川",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 529
+  },
+  {
+    "province": "四川",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 527
+  },
+  {
+    "province": "贵州",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 459
+  },
+  {
+    "province": "贵州",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 528
+  },
+  {
+    "province": "贵州",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 370
+  },
+  {
+    "province": "贵州",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 380
+  },
+  {
+    "province": "贵州",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 459
+  },
+  {
+    "province": "贵州",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 528
+  },
+  {
+    "province": "贵州",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 460
+  },
+  {
+    "province": "贵州",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 549
+  },
+  {
+    "province": "贵州",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 451
+  },
+  {
+    "province": "贵州",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 545
+  },
+  {
+    "province": "贵州",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 480
+  },
+  {
+    "province": "贵州",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 549
+  },
+  {
+    "province": "云南",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 500
+  },
+  {
+    "province": "云南",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 530
+  },
+  {
+    "province": "云南",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 400
+  },
+  {
+    "province": "云南",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 430
+  },
+  {
+    "province": "云南",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 510
+  },
+  {
+    "province": "云南",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 535
+  },
+  {
+    "province": "云南",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 521
+  },
+  {
+    "province": "云南",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 547
+  },
+  {
+    "province": "云南",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 520
+  },
+  {
+    "province": "云南",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 545
+  },
+  {
+    "province": "云南",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 535
+  },
+  {
+    "province": "云南",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 555
+  },
+  {
+    "province": "陕西",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 468
+  },
+  {
+    "province": "陕西",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 489
+  },
+  {
+    "province": "陕西",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 380
+  },
+  {
+    "province": "陕西",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 380
+  },
+  {
+    "province": "陕西",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 468
+  },
+  {
+    "province": "陕西",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 489
+  },
+  {
+    "province": "陕西",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 472
+  },
+  {
+    "province": "陕西",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 490
+  },
+  {
+    "province": "陕西",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 459
+  },
+  {
+    "province": "陕西",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 489
+  },
+  {
+    "province": "陕西",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 500
+  },
+  {
+    "province": "陕西",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 512
+  },
+  {
+    "province": "甘肃",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 430
+  },
+  {
+    "province": "甘肃",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 470
+  },
+  {
+    "province": "甘肃",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 350
+  },
+  {
+    "province": "甘肃",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 370
+  },
+  {
+    "province": "甘肃",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 423
+  },
+  {
+    "province": "甘肃",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 485
+  },
+  {
+    "province": "甘肃",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 430
+  },
+  {
+    "province": "甘肃",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 485
+  },
+  {
+    "province": "甘肃",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 432
+  },
+  {
+    "province": "甘肃",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 488
+  },
+  {
+    "province": "甘肃",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 474
+  },
+  {
+    "province": "甘肃",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 523
+  },
+  {
+    "province": "青海",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 348
+  },
+  {
+    "province": "青海",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 420
+  },
+  {
+    "province": "青海",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 347
+  },
+  {
+    "province": "青海",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 422
+  },
+  {
+    "province": "青海",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 333
+  },
+  {
+    "province": "青海",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 437
+  },
+  {
+    "province": "青海",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 352
+  },
+  {
+    "province": "青海",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 445
+  },
+  {
+    "province": "青海",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 400
+  },
+  {
+    "province": "青海",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 452
+  },
+  {
+    "province": "内蒙古",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 434
+  },
+  {
+    "province": "内蒙古",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 468
+  },
+  {
+    "province": "内蒙古",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "理科",
+    "score": 311
+  },
+  {
+    "province": "内蒙古",
+    "year": 2024,
+    "batch": "二本",
+    "subjects": "文科",
+    "score": 340
+  },
+  {
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 434
+  },
+  {
+    "province": "内蒙古",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 468
+  },
+  {
+    "province": "内蒙古",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 434
+  },
+  {
+    "province": "内蒙古",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 472
+  },
+  {
+    "province": "内蒙古",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 434
+  },
+  {
+    "province": "内蒙古",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 459
+  },
+  {
+    "province": "内蒙古",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 452
+  },
+  {
+    "province": "内蒙古",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 480
+  },
+  {
+    "province": "西藏",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 366
+  },
+  {
+    "province": "西藏",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 430
+  },
+  {
+    "province": "西藏",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 360
+  },
+  {
+    "province": "西藏",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 440
+  },
+  {
+    "province": "宁夏",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 397
+  },
+  {
+    "province": "宁夏",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 450
+  },
+  {
+    "province": "宁夏",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 397
+  },
+  {
+    "province": "宁夏",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 450
+  },
+  {
+    "province": "宁夏",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 397
+  },
+  {
+    "province": "宁夏",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 452
+  },
+  {
+    "province": "宁夏",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 400
+  },
+  {
+    "province": "宁夏",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 460
+  },
+  {
+    "province": "宁夏",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 460
+  },
+  {
+    "province": "宁夏",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 501
+  },
+  {
+    "province": "新疆",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 397
+  },
+  {
+    "province": "新疆",
+    "year": 2024,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 445
+  },
+  {
+    "province": "新疆",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 390
+  },
+  {
+    "province": "新疆",
+    "year": 2023,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 438
+  },
+  {
+    "province": "新疆",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 380
+  },
+  {
+    "province": "新疆",
+    "year": 2022,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 443
+  },
+  {
+    "province": "新疆",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 390
+  },
+  {
+    "province": "新疆",
+    "year": 2021,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 445
+  },
+  {
+    "province": "新疆",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "理科",
+    "score": 420
+  },
+  {
+    "province": "新疆",
+    "year": 2020,
+    "batch": "一本",
+    "subjects": "文科",
+    "score": 462
+  }
+]

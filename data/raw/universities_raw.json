@@ -1,0 +1,3895 @@
+[
+  {
+    "name": "北京大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 1,
+    "rank_qs": 17,
+    "established": 1898,
+    "id": "10001"
+  },
+  {
+    "name": "清华大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 2,
+    "rank_qs": 14,
+    "established": 1911,
+    "id": "10003"
+  },
+  {
+    "name": "中国人民大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 8,
+    "rank_qs": 601,
+    "established": 1937,
+    "id": "10002"
+  },
+  {
+    "name": "北京航空航天大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "工业和信息化部直属"
+    ],
+    "rank_soft": 18,
+    "rank_qs": 451,
+    "established": 1952,
+    "id": "10006"
+  },
+  {
+    "name": "北京理工大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "工业和信息化部直属"
+    ],
+    "rank_soft": 27,
+    "rank_qs": 601,
+    "established": 1940,
+    "id": "10007"
+  },
+  {
+    "name": "中国农业大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 39,
+    "rank_qs": 801,
+    "established": 1905,
+    "id": "10019"
+  },
+  {
+    "name": "北京师范大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 24,
+    "rank_qs": 351,
+    "established": 1902,
+    "id": "10027"
+  },
+  {
+    "name": "中央民族大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "国家民委直属"
+    ],
+    "rank_soft": 85,
+    "rank_qs": 0,
+    "established": 1941,
+    "id": "10030"
+  },
+  {
+    "name": "北京交通大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 51,
+    "rank_qs": 0,
+    "established": 1909,
+    "id": "10004"
+  },
+  {
+    "name": "北京工业大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "北京市属"
+    ],
+    "rank_soft": 66,
+    "rank_qs": 0,
+    "established": 1960,
+    "id": "10005"
+  },
+  {
+    "name": "北京化工大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 80,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10010"
+  },
+  {
+    "name": "北京邮电大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 55,
+    "rank_qs": 0,
+    "established": 1955,
+    "id": "10013"
+  },
+  {
+    "name": "中国传媒大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 148,
+    "rank_qs": 0,
+    "established": 1954,
+    "id": "10033"
+  },
+  {
+    "name": "对外经济贸易大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "财经",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 120,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10036"
+  },
+  {
+    "name": "中央财经大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "财经",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 88,
+    "rank_qs": 0,
+    "established": 1949,
+    "id": "10034"
+  },
+  {
+    "name": "中国政法大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "政法",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 103,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10053"
+  },
+  {
+    "name": "华北电力大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 86,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10054"
+  },
+  {
+    "name": "北京林业大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 110,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10022"
+  },
+  {
+    "name": "北京中医药大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 120,
+    "rank_qs": 0,
+    "established": 1956,
+    "id": "10026"
+  },
+  {
+    "name": "北京外国语大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "语言",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 150,
+    "rank_qs": 0,
+    "established": 1941,
+    "id": "10030"
+  },
+  {
+    "name": "中国矿业大学（北京）",
+    "province": "北京",
+    "city": "北京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 130,
+    "rank_qs": 0,
+    "established": 1909,
+    "id": "10290B"
+  },
+  {
+    "name": "中国石油大学（北京）",
+    "province": "北京",
+    "city": "北京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 135,
+    "rank_qs": 0,
+    "established": 1953,
+    "id": "10414B"
+  },
+  {
+    "name": "中国地质大学（北京）",
+    "province": "北京",
+    "city": "北京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 125,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10491B"
+  },
+  {
+    "name": "首都师范大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "北京市属",
+      "双一流B"
+    ],
+    "rank_soft": 180,
+    "rank_qs": 0,
+    "established": 1954,
+    "id": "10028"
+  },
+  {
+    "name": "北京科技大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 60,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10008"
+  },
+  {
+    "name": "中央音乐学院",
+    "province": "北京",
+    "city": "北京",
+    "type": "艺术",
+    "level": "本科",
+    "tags": [
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1950,
+    "id": "10031"
+  },
+  {
+    "name": "中国音乐学院",
+    "province": "北京",
+    "city": "北京",
+    "type": "艺术",
+    "level": "本科",
+    "tags": [
+      "教育部直属"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1964,
+    "id": "10047"
+  },
+  {
+    "name": "北京协和医学院",
+    "province": "北京",
+    "city": "北京",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "双一流A",
+      "国家卫健委直属"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1906,
+    "id": "10023"
+  },
+  {
+    "name": "北京体育大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "体育",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1953,
+    "id": "10043"
+  },
+  {
+    "name": "中央戏剧学院",
+    "province": "北京",
+    "city": "北京",
+    "type": "艺术",
+    "level": "本科",
+    "tags": [
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1938,
+    "id": "10048"
+  },
+  {
+    "name": "中央美术学院",
+    "province": "北京",
+    "city": "北京",
+    "type": "艺术",
+    "level": "本科",
+    "tags": [
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1918,
+    "id": "10049"
+  },
+  {
+    "name": "国际关系学院",
+    "province": "北京",
+    "city": "北京",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "保密类院校"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1949,
+    "id": "10052"
+  },
+  {
+    "name": "北京语言大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "语言",
+    "level": "本科",
+    "tags": [
+      "教育部直属"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1962,
+    "id": "10032"
+  },
+  {
+    "name": "首都医科大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "北京市属"
+    ],
+    "rank_soft": 160,
+    "rank_qs": 0,
+    "established": 1960,
+    "id": "10025"
+  },
+  {
+    "name": "北京建筑大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "北京市属"
+    ],
+    "rank_soft": 350,
+    "rank_qs": 0,
+    "established": 1936,
+    "id": "10016"
+  },
+  {
+    "name": "北京联合大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "北京市属"
+    ],
+    "rank_soft": 400,
+    "rank_qs": 0,
+    "established": 1985,
+    "id": "10045"
+  },
+  {
+    "name": "复旦大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 3,
+    "rank_qs": 42,
+    "established": 1905,
+    "id": "10246"
+  },
+  {
+    "name": "上海交通大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 4,
+    "rank_qs": 47,
+    "established": 1896,
+    "id": "10248"
+  },
+  {
+    "name": "同济大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 17,
+    "rank_qs": 301,
+    "established": 1907,
+    "id": "10247"
+  },
+  {
+    "name": "华东师范大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 28,
+    "rank_qs": 451,
+    "established": 1951,
+    "id": "10269"
+  },
+  {
+    "name": "华东理工大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 71,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10251"
+  },
+  {
+    "name": "上海财经大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "财经",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 83,
+    "rank_qs": 0,
+    "established": 1917,
+    "id": "10272"
+  },
+  {
+    "name": "东华大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 92,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10255"
+  },
+  {
+    "name": "上海外国语大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "语言",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 140,
+    "rank_qs": 0,
+    "established": 1949,
+    "id": "10271"
+  },
+  {
+    "name": "上海大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "上海市属"
+    ],
+    "rank_soft": 95,
+    "rank_qs": 0,
+    "established": 1922,
+    "id": "10280"
+  },
+  {
+    "name": "上海海洋大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "双一流B",
+      "农业农村部直属"
+    ],
+    "rank_soft": 200,
+    "rank_qs": 0,
+    "established": 1912,
+    "id": "10264"
+  },
+  {
+    "name": "上海中医药大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "双一流B",
+      "上海市属"
+    ],
+    "rank_soft": 180,
+    "rank_qs": 0,
+    "established": 1956,
+    "id": "10268"
+  },
+  {
+    "name": "上海理工大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "上海市属"
+    ],
+    "rank_soft": 220,
+    "rank_qs": 0,
+    "established": 1906,
+    "id": "10253"
+  },
+  {
+    "name": "上海师范大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "上海市属"
+    ],
+    "rank_soft": 230,
+    "rank_qs": 0,
+    "established": 1954,
+    "id": "10270"
+  },
+  {
+    "name": "上海音乐学院",
+    "province": "上海",
+    "city": "上海",
+    "type": "艺术",
+    "level": "本科",
+    "tags": [
+      "双一流A",
+      "上海市属"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1927,
+    "id": "10281"
+  },
+  {
+    "name": "上海戏剧学院",
+    "province": "上海",
+    "city": "上海",
+    "type": "艺术",
+    "level": "本科",
+    "tags": [
+      "上海市属"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1945,
+    "id": "10282"
+  },
+  {
+    "name": "海军军医大学",
+    "province": "上海",
+    "city": "上海",
+    "type": "军事",
+    "level": "本科",
+    "tags": [
+      "军事类"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1949,
+    "id": "90030"
+  },
+  {
+    "name": "南开大学",
+    "province": "天津",
+    "city": "天津",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 14,
+    "rank_qs": 401,
+    "established": 1919,
+    "id": "10055"
+  },
+  {
+    "name": "天津大学",
+    "province": "天津",
+    "city": "天津",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 22,
+    "rank_qs": 401,
+    "established": 1895,
+    "id": "10056"
+  },
+  {
+    "name": "天津师范大学",
+    "province": "天津",
+    "city": "天津",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "天津市属"
+    ],
+    "rank_soft": 280,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10065"
+  },
+  {
+    "name": "天津工业大学",
+    "province": "天津",
+    "city": "天津",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "天津市属"
+    ],
+    "rank_soft": 310,
+    "rank_qs": 0,
+    "established": 1912,
+    "id": "10058"
+  },
+  {
+    "name": "天津医科大学",
+    "province": "天津",
+    "city": "天津",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "211",
+      "天津市属"
+    ],
+    "rank_soft": 290,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10062"
+  },
+  {
+    "name": "天津中医药大学",
+    "province": "天津",
+    "city": "天津",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "双一流B",
+      "天津市属"
+    ],
+    "rank_soft": 300,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10063"
+  },
+  {
+    "name": "天津财经大学",
+    "province": "天津",
+    "city": "天津",
+    "type": "财经",
+    "level": "本科",
+    "tags": [
+      "天津市属"
+    ],
+    "rank_soft": 320,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10061"
+  },
+  {
+    "name": "河北工业大学",
+    "province": "天津",
+    "city": "天津",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "河北省属"
+    ],
+    "rank_soft": 190,
+    "rank_qs": 0,
+    "established": 1903,
+    "id": "10080"
+  },
+  {
+    "name": "武警工程大学",
+    "province": "天津",
+    "city": "天津",
+    "type": "军事",
+    "level": "本科",
+    "tags": [
+      "军事类"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1984,
+    "id": "90034"
+  },
+  {
+    "name": "重庆大学",
+    "province": "重庆",
+    "city": "重庆",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 32,
+    "rank_qs": 601,
+    "established": 1929,
+    "id": "10611"
+  },
+  {
+    "name": "西南大学",
+    "province": "重庆",
+    "city": "重庆",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 65,
+    "rank_qs": 0,
+    "established": 2005,
+    "id": "10635"
+  },
+  {
+    "name": "重庆医科大学",
+    "province": "重庆",
+    "city": "重庆",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "重庆市属"
+    ],
+    "rank_soft": 270,
+    "rank_qs": 0,
+    "established": 1956,
+    "id": "10631"
+  },
+  {
+    "name": "重庆师范大学",
+    "province": "重庆",
+    "city": "重庆",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "重庆市属"
+    ],
+    "rank_soft": 360,
+    "rank_qs": 0,
+    "established": 1954,
+    "id": "10637"
+  },
+  {
+    "name": "重庆工商大学",
+    "province": "重庆",
+    "city": "重庆",
+    "type": "财经",
+    "level": "本科",
+    "tags": [
+      "重庆市属"
+    ],
+    "rank_soft": 400,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10615"
+  },
+  {
+    "name": "重庆交通大学",
+    "province": "重庆",
+    "city": "重庆",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "重庆市属"
+    ],
+    "rank_soft": 380,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10618"
+  },
+  {
+    "name": "燕山大学",
+    "province": "河北",
+    "city": "秦皇岛",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "河北省属"
+    ],
+    "rank_soft": 200,
+    "rank_qs": 0,
+    "established": 1920,
+    "id": "10075"
+  },
+  {
+    "name": "河北大学",
+    "province": "河北",
+    "city": "保定",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "河北省属",
+      "双一流B"
+    ],
+    "rank_soft": 260,
+    "rank_qs": 0,
+    "established": 1921,
+    "id": "10075"
+  },
+  {
+    "name": "河北师范大学",
+    "province": "河北",
+    "city": "石家庄",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "河北省属"
+    ],
+    "rank_soft": 330,
+    "rank_qs": 0,
+    "established": 1902,
+    "id": "10094"
+  },
+  {
+    "name": "河北工程大学",
+    "province": "河北",
+    "city": "邯郸",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "河北省属"
+    ],
+    "rank_soft": 420,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10086"
+  },
+  {
+    "name": "华北理工大学",
+    "province": "河北",
+    "city": "唐山",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "河北省属"
+    ],
+    "rank_soft": 430,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10082"
+  },
+  {
+    "name": "太原理工大学",
+    "province": "山西",
+    "city": "太原",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "山西省属"
+    ],
+    "rank_soft": 155,
+    "rank_qs": 0,
+    "established": 1902,
+    "id": "10112"
+  },
+  {
+    "name": "山西大学",
+    "province": "山西",
+    "city": "太原",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "山西省属"
+    ],
+    "rank_soft": 230,
+    "rank_qs": 0,
+    "established": 1902,
+    "id": "10108"
+  },
+  {
+    "name": "山西师范大学",
+    "province": "山西",
+    "city": "临汾",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "山西省属"
+    ],
+    "rank_soft": 360,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10118"
+  },
+  {
+    "name": "山西财经大学",
+    "province": "山西",
+    "city": "太原",
+    "type": "财经",
+    "level": "本科",
+    "tags": [
+      "山西省属"
+    ],
+    "rank_soft": 390,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10109"
+  },
+  {
+    "name": "大连理工大学",
+    "province": "辽宁",
+    "city": "大连",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 19,
+    "rank_qs": 501,
+    "established": 1949,
+    "id": "10141"
+  },
+  {
+    "name": "东北大学",
+    "province": "辽宁",
+    "city": "沈阳",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 34,
+    "rank_qs": 601,
+    "established": 1923,
+    "id": "10145"
+  },
+  {
+    "name": "辽宁大学",
+    "province": "辽宁",
+    "city": "沈阳",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "辽宁省属"
+    ],
+    "rank_soft": 115,
+    "rank_qs": 0,
+    "established": 1948,
+    "id": "10140"
+  },
+  {
+    "name": "大连海事大学",
+    "province": "辽宁",
+    "city": "大连",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "交通运输部直属"
+    ],
+    "rank_soft": 145,
+    "rank_qs": 0,
+    "established": 1909,
+    "id": "10150"
+  },
+  {
+    "name": "沈阳工业大学",
+    "province": "辽宁",
+    "city": "沈阳",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "辽宁省属"
+    ],
+    "rank_soft": 280,
+    "rank_qs": 0,
+    "established": 1949,
+    "id": "10148"
+  },
+  {
+    "name": "沈阳师范大学",
+    "province": "辽宁",
+    "city": "沈阳",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "辽宁省属"
+    ],
+    "rank_soft": 350,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10166"
+  },
+  {
+    "name": "中国医科大学",
+    "province": "辽宁",
+    "city": "沈阳",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "辽宁省属"
+    ],
+    "rank_soft": 200,
+    "rank_qs": 0,
+    "established": 1931,
+    "id": "10159"
+  },
+  {
+    "name": "沈阳航空航天大学",
+    "province": "辽宁",
+    "city": "沈阳",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "辽宁省属"
+    ],
+    "rank_soft": 380,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10153"
+  },
+  {
+    "name": "吉林大学",
+    "province": "吉林",
+    "city": "长春",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 13,
+    "rank_qs": 601,
+    "established": 1946,
+    "id": "10183"
+  },
+  {
+    "name": "延边大学",
+    "province": "吉林",
+    "city": "延吉",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "吉林省属"
+    ],
+    "rank_soft": 190,
+    "rank_qs": 0,
+    "established": 1949,
+    "id": "10184"
+  },
+  {
+    "name": "长春理工大学",
+    "province": "吉林",
+    "city": "长春",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "吉林省属"
+    ],
+    "rank_soft": 300,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10188"
+  },
+  {
+    "name": "东北师范大学",
+    "province": "吉林",
+    "city": "长春",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 53,
+    "rank_qs": 0,
+    "established": 1946,
+    "id": "10200"
+  },
+  {
+    "name": "哈尔滨工业大学",
+    "province": "黑龙江",
+    "city": "哈尔滨",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "工业和信息化部直属"
+    ],
+    "rank_soft": 7,
+    "rank_qs": 239,
+    "established": 1920,
+    "id": "10213"
+  },
+  {
+    "name": "哈尔滨工程大学",
+    "province": "黑龙江",
+    "city": "哈尔滨",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "工业和信息化部直属"
+    ],
+    "rank_soft": 57,
+    "rank_qs": 0,
+    "established": 1953,
+    "id": "10217"
+  },
+  {
+    "name": "东北农业大学",
+    "province": "黑龙江",
+    "city": "哈尔滨",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "黑龙江省属"
+    ],
+    "rank_soft": 130,
+    "rank_qs": 0,
+    "established": 1948,
+    "id": "10224"
+  },
+  {
+    "name": "东北林业大学",
+    "province": "黑龙江",
+    "city": "哈尔滨",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 140,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10225"
+  },
+  {
+    "name": "黑龙江大学",
+    "province": "黑龙江",
+    "city": "哈尔滨",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "黑龙江省属"
+    ],
+    "rank_soft": 265,
+    "rank_qs": 0,
+    "established": 1941,
+    "id": "10212"
+  },
+  {
+    "name": "南京大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 6,
+    "rank_qs": 123,
+    "established": 1902,
+    "id": "10284"
+  },
+  {
+    "name": "东南大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 12,
+    "rank_qs": 201,
+    "established": 1902,
+    "id": "10286"
+  },
+  {
+    "name": "苏州大学",
+    "province": "江苏",
+    "city": "苏州",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "江苏省属"
+    ],
+    "rank_soft": 40,
+    "rank_qs": 801,
+    "established": 1900,
+    "id": "10285"
+  },
+  {
+    "name": "南京航空航天大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "工业和信息化部直属"
+    ],
+    "rank_soft": 30,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10287"
+  },
+  {
+    "name": "南京理工大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "工业和信息化部直属"
+    ],
+    "rank_soft": 37,
+    "rank_qs": 0,
+    "established": 1953,
+    "id": "10288"
+  },
+  {
+    "name": "河海大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 44,
+    "rank_qs": 0,
+    "established": 1915,
+    "id": "10294"
+  },
+  {
+    "name": "南京农业大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 50,
+    "rank_qs": 0,
+    "established": 1902,
+    "id": "10307"
+  },
+  {
+    "name": "中国药科大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 56,
+    "rank_qs": 0,
+    "established": 1936,
+    "id": "10316"
+  },
+  {
+    "name": "南京林业大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "双一流B",
+      "江苏省属"
+    ],
+    "rank_soft": 100,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10298"
+  },
+  {
+    "name": "南京信息工程大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "双一流B",
+      "江苏省属"
+    ],
+    "rank_soft": 90,
+    "rank_qs": 0,
+    "established": 1960,
+    "id": "10300"
+  },
+  {
+    "name": "南京师范大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "江苏省属"
+    ],
+    "rank_soft": 76,
+    "rank_qs": 0,
+    "established": 1902,
+    "id": "10319"
+  },
+  {
+    "name": "南京医科大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "江苏省属"
+    ],
+    "rank_soft": 160,
+    "rank_qs": 0,
+    "established": 1934,
+    "id": "10312"
+  },
+  {
+    "name": "南京邮电大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "江苏省属"
+    ],
+    "rank_soft": 170,
+    "rank_qs": 0,
+    "established": 1942,
+    "id": "10293"
+  },
+  {
+    "name": "江南大学",
+    "province": "江苏",
+    "city": "无锡",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 73,
+    "rank_qs": 0,
+    "established": 1902,
+    "id": "10295"
+  },
+  {
+    "name": "中国矿业大学",
+    "province": "江苏",
+    "city": "徐州",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 79,
+    "rank_qs": 0,
+    "established": 1909,
+    "id": "10290"
+  },
+  {
+    "name": "浙江大学",
+    "province": "浙江",
+    "city": "杭州",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 5,
+    "rank_qs": 44,
+    "established": 1897,
+    "id": "10335"
+  },
+  {
+    "name": "宁波大学",
+    "province": "浙江",
+    "city": "宁波",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "双一流B",
+      "浙江省属"
+    ],
+    "rank_soft": 130,
+    "rank_qs": 0,
+    "established": 1986,
+    "id": "10345"
+  },
+  {
+    "name": "浙江工业大学",
+    "province": "浙江",
+    "city": "杭州",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "浙江省属"
+    ],
+    "rank_soft": 150,
+    "rank_qs": 0,
+    "established": 1953,
+    "id": "10337"
+  },
+  {
+    "name": "浙江师范大学",
+    "province": "浙江",
+    "city": "金华",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "浙江省属"
+    ],
+    "rank_soft": 220,
+    "rank_qs": 0,
+    "established": 1956,
+    "id": "10343"
+  },
+  {
+    "name": "浙江理工大学",
+    "province": "浙江",
+    "city": "杭州",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "浙江省属"
+    ],
+    "rank_soft": 260,
+    "rank_qs": 0,
+    "established": 1897,
+    "id": "10338"
+  },
+  {
+    "name": "温州医科大学",
+    "province": "浙江",
+    "city": "温州",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "浙江省属"
+    ],
+    "rank_soft": 280,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10350"
+  },
+  {
+    "name": "中国科学技术大学",
+    "province": "安徽",
+    "city": "合肥",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "中国科学院直属"
+    ],
+    "rank_soft": 9,
+    "rank_qs": 113,
+    "established": 1958,
+    "id": "10358"
+  },
+  {
+    "name": "合肥工业大学",
+    "province": "安徽",
+    "city": "合肥",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 62,
+    "rank_qs": 0,
+    "established": 1945,
+    "id": "10359"
+  },
+  {
+    "name": "安徽大学",
+    "province": "安徽",
+    "city": "合肥",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "安徽省属"
+    ],
+    "rank_soft": 105,
+    "rank_qs": 0,
+    "established": 1928,
+    "id": "10357"
+  },
+  {
+    "name": "安徽师范大学",
+    "province": "安徽",
+    "city": "芜湖",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "安徽省属"
+    ],
+    "rank_soft": 290,
+    "rank_qs": 0,
+    "established": 1928,
+    "id": "10370"
+  },
+  {
+    "name": "安徽医科大学",
+    "province": "安徽",
+    "city": "合肥",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "安徽省属"
+    ],
+    "rank_soft": 270,
+    "rank_qs": 0,
+    "established": 1926,
+    "id": "10366"
+  },
+  {
+    "name": "厦门大学",
+    "province": "福建",
+    "city": "厦门",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 16,
+    "rank_qs": 301,
+    "established": 1921,
+    "id": "10384"
+  },
+  {
+    "name": "福州大学",
+    "province": "福建",
+    "city": "福州",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "福建省属"
+    ],
+    "rank_soft": 97,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10386"
+  },
+  {
+    "name": "福建师范大学",
+    "province": "福建",
+    "city": "福州",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "双一流B",
+      "福建省属"
+    ],
+    "rank_soft": 190,
+    "rank_qs": 0,
+    "established": 1907,
+    "id": "10394"
+  },
+  {
+    "name": "福建农林大学",
+    "province": "福建",
+    "city": "福州",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "双一流B",
+      "福建省属"
+    ],
+    "rank_soft": 210,
+    "rank_qs": 0,
+    "established": 1936,
+    "id": "10389"
+  },
+  {
+    "name": "华侨大学",
+    "province": "福建",
+    "city": "泉州",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "国务院侨务办公室直属"
+    ],
+    "rank_soft": 260,
+    "rank_qs": 0,
+    "established": 1960,
+    "id": "10385"
+  },
+  {
+    "name": "南昌大学",
+    "province": "江西",
+    "city": "南昌",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "江西省属"
+    ],
+    "rank_soft": 100,
+    "rank_qs": 0,
+    "established": 1896,
+    "id": "10403"
+  },
+  {
+    "name": "江西师范大学",
+    "province": "江西",
+    "city": "南昌",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "江西省属"
+    ],
+    "rank_soft": 300,
+    "rank_qs": 0,
+    "established": 1940,
+    "id": "10414"
+  },
+  {
+    "name": "景德镇陶瓷大学",
+    "province": "江西",
+    "city": "景德镇",
+    "type": "艺术",
+    "level": "本科",
+    "tags": [
+      "江西省属"
+    ],
+    "rank_soft": 400,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10406"
+  },
+  {
+    "name": "山东大学",
+    "province": "山东",
+    "city": "济南",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 20,
+    "rank_qs": 451,
+    "established": 1901,
+    "id": "10422"
+  },
+  {
+    "name": "中国海洋大学",
+    "province": "山东",
+    "city": "青岛",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 35,
+    "rank_qs": 601,
+    "established": 1924,
+    "id": "10423"
+  },
+  {
+    "name": "中国石油大学（华东）",
+    "province": "山东",
+    "city": "青岛",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 68,
+    "rank_qs": 0,
+    "established": 1953,
+    "id": "10414"
+  },
+  {
+    "name": "山东师范大学",
+    "province": "山东",
+    "city": "济南",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "山东省属"
+    ],
+    "rank_soft": 230,
+    "rank_qs": 0,
+    "established": 1950,
+    "id": "10445"
+  },
+  {
+    "name": "山东农业大学",
+    "province": "山东",
+    "city": "泰安",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "山东省属"
+    ],
+    "rank_soft": 240,
+    "rank_qs": 0,
+    "established": 1906,
+    "id": "10434"
+  },
+  {
+    "name": "青岛大学",
+    "province": "山东",
+    "city": "青岛",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "山东省属"
+    ],
+    "rank_soft": 260,
+    "rank_qs": 0,
+    "established": 1909,
+    "id": "10431"
+  },
+  {
+    "name": "曲阜师范大学",
+    "province": "山东",
+    "city": "曲阜",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "山东省属"
+    ],
+    "rank_soft": 300,
+    "rank_qs": 0,
+    "established": 1955,
+    "id": "10451"
+  },
+  {
+    "name": "郑州大学",
+    "province": "河南",
+    "city": "郑州",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "河南省属"
+    ],
+    "rank_soft": 70,
+    "rank_qs": 0,
+    "established": 1956,
+    "id": "10459"
+  },
+  {
+    "name": "河南大学",
+    "province": "河南",
+    "city": "开封",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "双一流B",
+      "河南省属"
+    ],
+    "rank_soft": 175,
+    "rank_qs": 0,
+    "established": 1912,
+    "id": "10475"
+  },
+  {
+    "name": "河南师范大学",
+    "province": "河南",
+    "city": "新乡",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "河南省属"
+    ],
+    "rank_soft": 330,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10476"
+  },
+  {
+    "name": "河南工业大学",
+    "province": "河南",
+    "city": "郑州",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "河南省属"
+    ],
+    "rank_soft": 380,
+    "rank_qs": 0,
+    "established": 1956,
+    "id": "10463"
+  },
+  {
+    "name": "武汉大学",
+    "province": "湖北",
+    "city": "武汉",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 10,
+    "rank_qs": 226,
+    "established": 1893,
+    "id": "10486"
+  },
+  {
+    "name": "华中科技大学",
+    "province": "湖北",
+    "city": "武汉",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 11,
+    "rank_qs": 275,
+    "established": 1952,
+    "id": "10487"
+  },
+  {
+    "name": "华中师范大学",
+    "province": "湖北",
+    "city": "武汉",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 49,
+    "rank_qs": 0,
+    "established": 1903,
+    "id": "10511"
+  },
+  {
+    "name": "武汉理工大学",
+    "province": "湖北",
+    "city": "武汉",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 43,
+    "rank_qs": 0,
+    "established": 1948,
+    "id": "10497"
+  },
+  {
+    "name": "华中农业大学",
+    "province": "湖北",
+    "city": "武汉",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 58,
+    "rank_qs": 0,
+    "established": 1898,
+    "id": "10504"
+  },
+  {
+    "name": "中南财经政法大学",
+    "province": "湖北",
+    "city": "武汉",
+    "type": "财经",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 84,
+    "rank_qs": 0,
+    "established": 1948,
+    "id": "10520"
+  },
+  {
+    "name": "中国地质大学（武汉）",
+    "province": "湖北",
+    "city": "武汉",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 78,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10491"
+  },
+  {
+    "name": "武汉科技大学",
+    "province": "湖北",
+    "city": "武汉",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "湖北省属"
+    ],
+    "rank_soft": 230,
+    "rank_qs": 0,
+    "established": 1898,
+    "id": "10488"
+  },
+  {
+    "name": "湖北大学",
+    "province": "湖北",
+    "city": "武汉",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "湖北省属"
+    ],
+    "rank_soft": 260,
+    "rank_qs": 0,
+    "established": 1931,
+    "id": "10512"
+  },
+  {
+    "name": "三峡大学",
+    "province": "湖北",
+    "city": "宜昌",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "湖北省属"
+    ],
+    "rank_soft": 340,
+    "rank_qs": 0,
+    "established": 2000,
+    "id": "10533"
+  },
+  {
+    "name": "中南大学",
+    "province": "湖南",
+    "city": "长沙",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 15,
+    "rank_qs": 451,
+    "established": 2000,
+    "id": "10533"
+  },
+  {
+    "name": "湖南大学",
+    "province": "湖南",
+    "city": "长沙",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 21,
+    "rank_qs": 601,
+    "established": 976,
+    "id": "10542"
+  },
+  {
+    "name": "湖南师范大学",
+    "province": "湖南",
+    "city": "长沙",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "湖南省属"
+    ],
+    "rank_soft": 87,
+    "rank_qs": 0,
+    "established": 1938,
+    "id": "10542"
+  },
+  {
+    "name": "中南林业科技大学",
+    "province": "湖南",
+    "city": "长沙",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "湖南省属"
+    ],
+    "rank_soft": 230,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10549"
+  },
+  {
+    "name": "长沙理工大学",
+    "province": "湖南",
+    "city": "长沙",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "湖南省属"
+    ],
+    "rank_soft": 270,
+    "rank_qs": 0,
+    "established": 1956,
+    "id": "10536"
+  },
+  {
+    "name": "湘潭大学",
+    "province": "湖南",
+    "city": "湘潭",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "湖南省属"
+    ],
+    "rank_soft": 250,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10541"
+  },
+  {
+    "name": "中山大学",
+    "province": "广东",
+    "city": "广州",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 23,
+    "rank_qs": 324,
+    "established": 1924,
+    "id": "10558"
+  },
+  {
+    "name": "华南理工大学",
+    "province": "广东",
+    "city": "广州",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 25,
+    "rank_qs": 401,
+    "established": 1952,
+    "id": "10561"
+  },
+  {
+    "name": "暨南大学",
+    "province": "广东",
+    "city": "广州",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "国务院侨务办公室直属"
+    ],
+    "rank_soft": 72,
+    "rank_qs": 0,
+    "established": 1906,
+    "id": "10559"
+  },
+  {
+    "name": "华南师范大学",
+    "province": "广东",
+    "city": "广州",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "广东省属"
+    ],
+    "rank_soft": 74,
+    "rank_qs": 0,
+    "established": 1933,
+    "id": "10574"
+  },
+  {
+    "name": "华南农业大学",
+    "province": "广东",
+    "city": "广州",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "双一流B",
+      "广东省属"
+    ],
+    "rank_soft": 93,
+    "rank_qs": 0,
+    "established": 1909,
+    "id": "10564"
+  },
+  {
+    "name": "广东工业大学",
+    "province": "广东",
+    "city": "广州",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "广东省属"
+    ],
+    "rank_soft": 180,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10560"
+  },
+  {
+    "name": "广州大学",
+    "province": "广东",
+    "city": "广州",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "广东省属"
+    ],
+    "rank_soft": 220,
+    "rank_qs": 0,
+    "established": 1983,
+    "id": "10586"
+  },
+  {
+    "name": "深圳大学",
+    "province": "广东",
+    "city": "深圳",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "广东省属"
+    ],
+    "rank_soft": 160,
+    "rank_qs": 0,
+    "established": 1983,
+    "id": "10590"
+  },
+  {
+    "name": "南方科技大学",
+    "province": "广东",
+    "city": "深圳",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "双一流B",
+      "广东省属"
+    ],
+    "rank_soft": 75,
+    "rank_qs": 0,
+    "established": 2011,
+    "id": "14991"
+  },
+  {
+    "name": "广州医科大学",
+    "province": "广东",
+    "city": "广州",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "广东省属"
+    ],
+    "rank_soft": 230,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10570"
+  },
+  {
+    "name": "广西大学",
+    "province": "广西",
+    "city": "南宁",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "广西壮族自治区属"
+    ],
+    "rank_soft": 135,
+    "rank_qs": 0,
+    "established": 1928,
+    "id": "10593"
+  },
+  {
+    "name": "广西师范大学",
+    "province": "广西",
+    "city": "桂林",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "广西壮族自治区属"
+    ],
+    "rank_soft": 280,
+    "rank_qs": 0,
+    "established": 1932,
+    "id": "10602"
+  },
+  {
+    "name": "桂林电子科技大学",
+    "province": "广西",
+    "city": "桂林",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "广西壮族自治区属"
+    ],
+    "rank_soft": 310,
+    "rank_qs": 0,
+    "established": 1960,
+    "id": "10595"
+  },
+  {
+    "name": "海南大学",
+    "province": "海南",
+    "city": "海口",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "海南省属"
+    ],
+    "rank_soft": 195,
+    "rank_qs": 0,
+    "established": 2007,
+    "id": "10589"
+  },
+  {
+    "name": "四川大学",
+    "province": "四川",
+    "city": "成都",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 26,
+    "rank_qs": 801,
+    "established": 1896,
+    "id": "10610"
+  },
+  {
+    "name": "电子科技大学",
+    "province": "四川",
+    "city": "成都",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 29,
+    "rank_qs": 501,
+    "established": 1956,
+    "id": "10614"
+  },
+  {
+    "name": "西南交通大学",
+    "province": "四川",
+    "city": "成都",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 47,
+    "rank_qs": 0,
+    "established": 1896,
+    "id": "10613"
+  },
+  {
+    "name": "西南财经大学",
+    "province": "四川",
+    "city": "成都",
+    "type": "财经",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 69,
+    "rank_qs": 0,
+    "established": 1925,
+    "id": "10623"
+  },
+  {
+    "name": "四川农业大学",
+    "province": "四川",
+    "city": "雅安",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "四川省属"
+    ],
+    "rank_soft": 96,
+    "rank_qs": 0,
+    "established": 1906,
+    "id": "10626"
+  },
+  {
+    "name": "成都理工大学",
+    "province": "四川",
+    "city": "成都",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "四川省属"
+    ],
+    "rank_soft": 215,
+    "rank_qs": 0,
+    "established": 1956,
+    "id": "10616"
+  },
+  {
+    "name": "西南科技大学",
+    "province": "四川",
+    "city": "绵阳",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "四川省属"
+    ],
+    "rank_soft": 320,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10619"
+  },
+  {
+    "name": "四川师范大学",
+    "province": "四川",
+    "city": "成都",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "四川省属"
+    ],
+    "rank_soft": 290,
+    "rank_qs": 0,
+    "established": 1946,
+    "id": "10636"
+  },
+  {
+    "name": "西南民族大学",
+    "province": "四川",
+    "city": "成都",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "国家民委直属"
+    ],
+    "rank_soft": 350,
+    "rank_qs": 0,
+    "established": 1950,
+    "id": "10656"
+  },
+  {
+    "name": "贵州大学",
+    "province": "贵州",
+    "city": "贵阳",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "贵州省属"
+    ],
+    "rank_soft": 175,
+    "rank_qs": 0,
+    "established": 1902,
+    "id": "10657"
+  },
+  {
+    "name": "贵州师范大学",
+    "province": "贵州",
+    "city": "贵阳",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "贵州省属"
+    ],
+    "rank_soft": 380,
+    "rank_qs": 0,
+    "established": 1941,
+    "id": "10663"
+  },
+  {
+    "name": "云南大学",
+    "province": "云南",
+    "city": "昆明",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "云南省属"
+    ],
+    "rank_soft": 155,
+    "rank_qs": 0,
+    "established": 1922,
+    "id": "10673"
+  },
+  {
+    "name": "昆明理工大学",
+    "province": "云南",
+    "city": "昆明",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "云南省属"
+    ],
+    "rank_soft": 220,
+    "rank_qs": 0,
+    "established": 1954,
+    "id": "10674"
+  },
+  {
+    "name": "云南师范大学",
+    "province": "云南",
+    "city": "昆明",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "云南省属"
+    ],
+    "rank_soft": 310,
+    "rank_qs": 0,
+    "established": 1938,
+    "id": "10681"
+  },
+  {
+    "name": "西安交通大学",
+    "province": "陕西",
+    "city": "西安",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 31,
+    "rank_qs": 336,
+    "established": 1896,
+    "id": "10698"
+  },
+  {
+    "name": "西北工业大学",
+    "province": "陕西",
+    "city": "西安",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "工业和信息化部直属"
+    ],
+    "rank_soft": 33,
+    "rank_qs": 601,
+    "established": 1938,
+    "id": "10699"
+  },
+  {
+    "name": "西北大学",
+    "province": "陕西",
+    "city": "西安",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "陕西省属"
+    ],
+    "rank_soft": 91,
+    "rank_qs": 0,
+    "established": 1902,
+    "id": "10697"
+  },
+  {
+    "name": "陕西师范大学",
+    "province": "陕西",
+    "city": "西安",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 98,
+    "rank_qs": 0,
+    "established": 1944,
+    "id": "10718"
+  },
+  {
+    "name": "长安大学",
+    "province": "陕西",
+    "city": "西安",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 114,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10710"
+  },
+  {
+    "name": "西北农林科技大学",
+    "province": "陕西",
+    "city": "咸阳",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 45,
+    "rank_qs": 0,
+    "established": 1934,
+    "id": "10712"
+  },
+  {
+    "name": "空军军医大学",
+    "province": "陕西",
+    "city": "西安",
+    "type": "军事",
+    "level": "本科",
+    "tags": [
+      "军事类"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1941,
+    "id": "90008"
+  },
+  {
+    "name": "西安电子科技大学",
+    "province": "陕西",
+    "city": "西安",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "工业和信息化部直属"
+    ],
+    "rank_soft": 67,
+    "rank_qs": 0,
+    "established": 1931,
+    "id": "10701"
+  },
+  {
+    "name": "兰州大学",
+    "province": "甘肃",
+    "city": "兰州",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "教育部直属"
+    ],
+    "rank_soft": 36,
+    "rank_qs": 451,
+    "established": 1909,
+    "id": "10730"
+  },
+  {
+    "name": "西北师范大学",
+    "province": "甘肃",
+    "city": "兰州",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "甘肃省属"
+    ],
+    "rank_soft": 280,
+    "rank_qs": 0,
+    "established": 1902,
+    "id": "10736"
+  },
+  {
+    "name": "兰州理工大学",
+    "province": "甘肃",
+    "city": "兰州",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "甘肃省属"
+    ],
+    "rank_soft": 310,
+    "rank_qs": 0,
+    "established": 1919,
+    "id": "10731"
+  },
+  {
+    "name": "兰州交通大学",
+    "province": "甘肃",
+    "city": "兰州",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "甘肃省属"
+    ],
+    "rank_soft": 340,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10732"
+  },
+  {
+    "name": "青海大学",
+    "province": "青海",
+    "city": "西宁",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "青海省属"
+    ],
+    "rank_soft": 270,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10743"
+  },
+  {
+    "name": "青海师范大学",
+    "province": "青海",
+    "city": "西宁",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "青海省属"
+    ],
+    "rank_soft": 400,
+    "rank_qs": 0,
+    "established": 1956,
+    "id": "10746"
+  },
+  {
+    "name": "内蒙古大学",
+    "province": "内蒙古",
+    "city": "呼和浩特",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "内蒙古自治区属"
+    ],
+    "rank_soft": 185,
+    "rank_qs": 0,
+    "established": 1957,
+    "id": "10126"
+  },
+  {
+    "name": "内蒙古工业大学",
+    "province": "内蒙古",
+    "city": "呼和浩特",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "内蒙古自治区属"
+    ],
+    "rank_soft": 340,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10128"
+  },
+  {
+    "name": "内蒙古师范大学",
+    "province": "内蒙古",
+    "city": "呼和浩特",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "内蒙古自治区属"
+    ],
+    "rank_soft": 380,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10135"
+  },
+  {
+    "name": "西藏大学",
+    "province": "西藏",
+    "city": "拉萨",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "西藏自治区属"
+    ],
+    "rank_soft": 350,
+    "rank_qs": 0,
+    "established": 1985,
+    "id": "10694"
+  },
+  {
+    "name": "宁夏大学",
+    "province": "宁夏",
+    "city": "银川",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "宁夏回族自治区属"
+    ],
+    "rank_soft": 265,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10749"
+  },
+  {
+    "name": "北方民族大学",
+    "province": "宁夏",
+    "city": "银川",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "国家民委直属"
+    ],
+    "rank_soft": 400,
+    "rank_qs": 0,
+    "established": 1984,
+    "id": "10752"
+  },
+  {
+    "name": "新疆大学",
+    "province": "新疆",
+    "city": "乌鲁木齐",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "新疆维吾尔自治区属"
+    ],
+    "rank_soft": 210,
+    "rank_qs": 0,
+    "established": 1924,
+    "id": "10755"
+  },
+  {
+    "name": "新疆农业大学",
+    "province": "新疆",
+    "city": "乌鲁木齐",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "新疆维吾尔自治区属"
+    ],
+    "rank_soft": 350,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10758"
+  },
+  {
+    "name": "新疆医科大学",
+    "province": "新疆",
+    "city": "乌鲁木齐",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "新疆维吾尔自治区属"
+    ],
+    "rank_soft": 370,
+    "rank_qs": 0,
+    "established": 1956,
+    "id": "10759"
+  },
+  {
+    "name": "哈尔滨师范大学",
+    "province": "黑龙江",
+    "city": "哈尔滨",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "黑龙江省属"
+    ],
+    "rank_soft": 310,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10231"
+  },
+  {
+    "name": "齐齐哈尔大学",
+    "province": "黑龙江",
+    "city": "齐齐哈尔",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "黑龙江省属"
+    ],
+    "rank_soft": 380,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10223"
+  },
+  {
+    "name": "长春大学",
+    "province": "吉林",
+    "city": "长春",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "吉林省属"
+    ],
+    "rank_soft": 420,
+    "rank_qs": 0,
+    "established": 1984,
+    "id": "10191"
+  },
+  {
+    "name": "长春工业大学",
+    "province": "吉林",
+    "city": "长春",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "吉林省属"
+    ],
+    "rank_soft": 410,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10186"
+  },
+  {
+    "name": "沈阳建筑大学",
+    "province": "辽宁",
+    "city": "沈阳",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "辽宁省属"
+    ],
+    "rank_soft": 360,
+    "rank_qs": 0,
+    "established": 1948,
+    "id": "10154"
+  },
+  {
+    "name": "大连大学",
+    "province": "辽宁",
+    "city": "大连",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "辽宁省属"
+    ],
+    "rank_soft": 390,
+    "rank_qs": 0,
+    "established": 1987,
+    "id": "10151"
+  },
+  {
+    "name": "石家庄铁道大学",
+    "province": "河北",
+    "city": "石家庄",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "河北省属"
+    ],
+    "rank_soft": 280,
+    "rank_qs": 0,
+    "established": 1950,
+    "id": "10107"
+  },
+  {
+    "name": "河北医科大学",
+    "province": "河北",
+    "city": "石家庄",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "河北省属"
+    ],
+    "rank_soft": 300,
+    "rank_qs": 0,
+    "established": 1894,
+    "id": "10089"
+  },
+  {
+    "name": "山西医科大学",
+    "province": "山西",
+    "city": "太原",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "山西省属"
+    ],
+    "rank_soft": 330,
+    "rank_qs": 0,
+    "established": 1919,
+    "id": "10114"
+  },
+  {
+    "name": "中北大学",
+    "province": "山西",
+    "city": "太原",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "山西省属"
+    ],
+    "rank_soft": 310,
+    "rank_qs": 0,
+    "established": 1941,
+    "id": "10113"
+  },
+  {
+    "name": "南京工业大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "江苏省属"
+    ],
+    "rank_soft": 135,
+    "rank_qs": 0,
+    "established": 1902,
+    "id": "10291"
+  },
+  {
+    "name": "苏州科技大学",
+    "province": "江苏",
+    "city": "苏州",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "江苏省属"
+    ],
+    "rank_soft": 310,
+    "rank_qs": 0,
+    "established": 1964,
+    "id": "10332"
+  },
+  {
+    "name": "盐城工学院",
+    "province": "江苏",
+    "city": "盐城",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "江苏省属"
+    ],
+    "rank_soft": 430,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10323"
+  },
+  {
+    "name": "杭州电子科技大学",
+    "province": "浙江",
+    "city": "杭州",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "浙江省属"
+    ],
+    "rank_soft": 200,
+    "rank_qs": 0,
+    "established": 1956,
+    "id": "10336"
+  },
+  {
+    "name": "浙江农林大学",
+    "province": "浙江",
+    "city": "杭州",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "浙江省属"
+    ],
+    "rank_soft": 280,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10341"
+  },
+  {
+    "name": "温州大学",
+    "province": "浙江",
+    "city": "温州",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "浙江省属"
+    ],
+    "rank_soft": 370,
+    "rank_qs": 0,
+    "established": 1933,
+    "id": "10351"
+  },
+  {
+    "name": "安徽工业大学",
+    "province": "安徽",
+    "city": "马鞍山",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "安徽省属"
+    ],
+    "rank_soft": 360,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10360"
+  },
+  {
+    "name": "安徽工程大学",
+    "province": "安徽",
+    "city": "芜湖",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "安徽省属"
+    ],
+    "rank_soft": 400,
+    "rank_qs": 0,
+    "established": 1935,
+    "id": "10363"
+  },
+  {
+    "name": "江西财经大学",
+    "province": "江西",
+    "city": "南昌",
+    "type": "财经",
+    "level": "本科",
+    "tags": [
+      "江西省属"
+    ],
+    "rank_soft": 220,
+    "rank_qs": 0,
+    "established": 1923,
+    "id": "10421"
+  },
+  {
+    "name": "赣南师范大学",
+    "province": "江西",
+    "city": "赣州",
+    "type": "师范",
+    "level": "本科",
+    "tags": [
+      "江西省属"
+    ],
+    "rank_soft": 410,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10420"
+  },
+  {
+    "name": "青岛科技大学",
+    "province": "山东",
+    "city": "青岛",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "山东省属"
+    ],
+    "rank_soft": 265,
+    "rank_qs": 0,
+    "established": 1950,
+    "id": "10426"
+  },
+  {
+    "name": "山东科技大学",
+    "province": "山东",
+    "city": "青岛",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "山东省属"
+    ],
+    "rank_soft": 245,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10424"
+  },
+  {
+    "name": "烟台大学",
+    "province": "山东",
+    "city": "烟台",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "山东省属"
+    ],
+    "rank_soft": 340,
+    "rank_qs": 0,
+    "established": 1984,
+    "id": "10452"
+  },
+  {
+    "name": "河南理工大学",
+    "province": "河南",
+    "city": "焦作",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "河南省属"
+    ],
+    "rank_soft": 370,
+    "rank_qs": 0,
+    "established": 1909,
+    "id": "10460"
+  },
+  {
+    "name": "河南农业大学",
+    "province": "河南",
+    "city": "郑州",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "河南省属"
+    ],
+    "rank_soft": 310,
+    "rank_qs": 0,
+    "established": 1913,
+    "id": "10466"
+  },
+  {
+    "name": "新乡医学院",
+    "province": "河南",
+    "city": "新乡",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "河南省属"
+    ],
+    "rank_soft": 400,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10472"
+  },
+  {
+    "name": "武汉纺织大学",
+    "province": "湖北",
+    "city": "武汉",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "湖北省属"
+    ],
+    "rank_soft": 330,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10497"
+  },
+  {
+    "name": "湖北工业大学",
+    "province": "湖北",
+    "city": "武汉",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "湖北省属"
+    ],
+    "rank_soft": 310,
+    "rank_qs": 0,
+    "established": 1952,
+    "id": "10500"
+  },
+  {
+    "name": "长江大学",
+    "province": "湖北",
+    "city": "荆州",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "湖北省属"
+    ],
+    "rank_soft": 360,
+    "rank_qs": 0,
+    "established": 2003,
+    "id": "10534"
+  },
+  {
+    "name": "湖南工业大学",
+    "province": "湖南",
+    "city": "株洲",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "湖南省属"
+    ],
+    "rank_soft": 340,
+    "rank_qs": 0,
+    "established": 1979,
+    "id": "10544"
+  },
+  {
+    "name": "南华大学",
+    "province": "湖南",
+    "city": "衡阳",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "湖南省属"
+    ],
+    "rank_soft": 310,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10555"
+  },
+  {
+    "name": "广东财经大学",
+    "province": "广东",
+    "city": "广州",
+    "type": "财经",
+    "level": "本科",
+    "tags": [
+      "广东省属"
+    ],
+    "rank_soft": 270,
+    "rank_qs": 0,
+    "established": 1983,
+    "id": "10568"
+  },
+  {
+    "name": "广东医科大学",
+    "province": "广东",
+    "city": "湛江",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "广东省属"
+    ],
+    "rank_soft": 310,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10571"
+  },
+  {
+    "name": "广西医科大学",
+    "province": "广西",
+    "city": "南宁",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "广西壮族自治区属"
+    ],
+    "rank_soft": 280,
+    "rank_qs": 0,
+    "established": 1934,
+    "id": "10600"
+  },
+  {
+    "name": "桂林理工大学",
+    "province": "广西",
+    "city": "桂林",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "广西壮族自治区属"
+    ],
+    "rank_soft": 330,
+    "rank_qs": 0,
+    "established": 1956,
+    "id": "10596"
+  },
+  {
+    "name": "成都信息工程大学",
+    "province": "四川",
+    "city": "成都",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "四川省属"
+    ],
+    "rank_soft": 300,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10621"
+  },
+  {
+    "name": "贵州医科大学",
+    "province": "贵州",
+    "city": "贵阳",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "贵州省属"
+    ],
+    "rank_soft": 360,
+    "rank_qs": 0,
+    "established": 1938,
+    "id": "10660"
+  },
+  {
+    "name": "贵州理工学院",
+    "province": "贵州",
+    "city": "贵阳",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "贵州省属"
+    ],
+    "rank_soft": 430,
+    "rank_qs": 0,
+    "established": 2013,
+    "id": "10958"
+  },
+  {
+    "name": "云南民族大学",
+    "province": "云南",
+    "city": "昆明",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "云南省属"
+    ],
+    "rank_soft": 360,
+    "rank_qs": 0,
+    "established": 1951,
+    "id": "10678"
+  },
+  {
+    "name": "云南农业大学",
+    "province": "云南",
+    "city": "昆明",
+    "type": "农林",
+    "level": "本科",
+    "tags": [
+      "云南省属"
+    ],
+    "rank_soft": 380,
+    "rank_qs": 0,
+    "established": 1938,
+    "id": "10676"
+  },
+  {
+    "name": "西安建筑科技大学",
+    "province": "陕西",
+    "city": "西安",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "陕西省属"
+    ],
+    "rank_soft": 230,
+    "rank_qs": 0,
+    "established": 1895,
+    "id": "10703"
+  },
+  {
+    "name": "陕西科技大学",
+    "province": "陕西",
+    "city": "西安",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "陕西省属"
+    ],
+    "rank_soft": 300,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10708"
+  },
+  {
+    "name": "西安工业大学",
+    "province": "陕西",
+    "city": "西安",
+    "type": "理工",
+    "level": "本科",
+    "tags": [
+      "陕西省属"
+    ],
+    "rank_soft": 360,
+    "rank_qs": 0,
+    "established": 1955,
+    "id": "10704"
+  },
+  {
+    "name": "西北政法大学",
+    "province": "陕西",
+    "city": "西安",
+    "type": "政法",
+    "level": "本科",
+    "tags": [
+      "陕西省属"
+    ],
+    "rank_soft": 310,
+    "rank_qs": 0,
+    "established": 1937,
+    "id": "10719"
+  },
+  {
+    "name": "宁夏医科大学",
+    "province": "宁夏",
+    "city": "银川",
+    "type": "医药",
+    "level": "本科",
+    "tags": [
+      "宁夏回族自治区属"
+    ],
+    "rank_soft": 380,
+    "rank_qs": 0,
+    "established": 1958,
+    "id": "10750"
+  },
+  {
+    "name": "石河子大学",
+    "province": "新疆",
+    "city": "石河子",
+    "type": "综合",
+    "level": "本科",
+    "tags": [
+      "211",
+      "双一流B",
+      "教育部直属"
+    ],
+    "rank_soft": 195,
+    "rank_qs": 0,
+    "established": 1949,
+    "id": "10759"
+  },
+  {
+    "name": "国防科技大学",
+    "province": "湖南",
+    "city": "长沙",
+    "type": "军事",
+    "level": "本科",
+    "tags": [
+      "985",
+      "211",
+      "双一流A",
+      "军事类"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1953,
+    "id": "90002"
+  },
+  {
+    "name": "解放军信息工程大学",
+    "province": "河南",
+    "city": "郑州",
+    "type": "军事",
+    "level": "本科",
+    "tags": [
+      "军事类"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1931,
+    "id": "90039"
+  },
+  {
+    "name": "陆军工程大学",
+    "province": "江苏",
+    "city": "南京",
+    "type": "军事",
+    "level": "本科",
+    "tags": [
+      "军事类"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1949,
+    "id": "90045"
+  },
+  {
+    "name": "海军工程大学",
+    "province": "湖北",
+    "city": "武汉",
+    "type": "军事",
+    "level": "本科",
+    "tags": [
+      "军事类"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1949,
+    "id": "90006"
+  },
+  {
+    "name": "空军工程大学",
+    "province": "陕西",
+    "city": "西安",
+    "type": "军事",
+    "level": "本科",
+    "tags": [
+      "军事类"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1957,
+    "id": "90004"
+  },
+  {
+    "name": "解放军战略支援部队航天工程大学",
+    "province": "北京",
+    "city": "北京",
+    "type": "军事",
+    "level": "本科",
+    "tags": [
+      "军事类"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1999,
+    "id": "90037"
+  },
+  {
+    "name": "武警学院",
+    "province": "河北",
+    "city": "廊坊",
+    "type": "军事",
+    "level": "本科",
+    "tags": [
+      "军事类"
+    ],
+    "rank_soft": 0,
+    "rank_qs": 0,
+    "established": 1982,
+    "id": "90038"
+  }
+]

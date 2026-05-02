@@ -1,0 +1,17 @@
+{
+  "universities": 258,
+  "control_scores": 264,
+  "school_scores": 1862,
+  "majors": 240,
+  "provinces": 31,
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "985_count": 40,
+  "211_count": 112,
+  "double_first_class": 129
+}

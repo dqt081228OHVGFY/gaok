@@ -3,20 +3,28 @@ info:
   # Do not change the title, if the title changes, the import paths will be broken
   title: Api
   version: 0.1.0
-  description: API specification
+  description: 高考志愿填报平台 API
 servers:
   - url: /api
     description: Base API path
 tags:
   - name: health
     description: Health operations
+  - name: universities
+    description: 高校信息
+  - name: majors
+    description: 专业信息
+  - name: scores
+    description: 分数线数据
+  - name: stats
+    description: 统计数据
+
 paths:
   /healthz:
     get:
       operationId: healthCheck
       tags: [health]
       summary: Health check
-      description: Returns server health status
       responses:
         "200":
           description: Healthy
@@ -24,6 +32,298 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+
+  /universities:
+    get:
+      operationId: listUniversities
+      tags: [universities]
+      summary: 获取高校列表
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: pageSize
+          in: query
+          schema:
+            type: integer
+            default: 20
+        - name: search
+          in: query
+          schema:
+            type: string
+          description: 搜索关键词
+        - name: province
+          in: query
+          schema:
+            type: string
+          description: 省份筛选
+        - name: type
+          in: query
+          schema:
+            type: string
+          description: 院校类型（综合/理工/师范等）
+        - name: tag
+          in: query
+          schema:
+            type: string
+          description: 标签筛选（985/211/双一流等）
+        - name: sortBy
+          in: query
+          schema:
+            type: string
+            enum: [rank_soft, rank_qs, name, established]
+            default: rank_soft
+      responses:
+        "200":
+          description: 高校列表
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UniversityList"
+
+  /universities/{id}:
+    get:
+      operationId: getUniversity
+      tags: [universities]
+      summary: 获取高校详情
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: 高校详情
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/University"
+        "404":
+          description: 未找到
+
+  /universities/{id}/scores:
+    get:
+      operationId: getUniversityScores
+      tags: [universities]
+      summary: 获取高校历年录取分数线
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: province
+          in: query
+          schema:
+            type: string
+        - name: year
+          in: query
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: 录取分数线
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  scores:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/SchoolScore"
+                required:
+                  - scores
+
+  /majors:
+    get:
+      operationId: listMajors
+      tags: [majors]
+      summary: 获取专业列表
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: pageSize
+          in: query
+          schema:
+            type: integer
+            default: 20
+        - name: search
+          in: query
+          schema:
+            type: string
+        - name: category
+          in: query
+          schema:
+            type: string
+          description: 学科门类
+      responses:
+        "200":
+          description: 专业列表
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MajorList"
+
+  /control-scores:
+    get:
+      operationId: listControlScores
+      tags: [scores]
+      summary: 获取各省控制线
+      parameters:
+        - name: province
+          in: query
+          schema:
+            type: string
+        - name: year
+          in: query
+          schema:
+            type: integer
+        - name: subjects
+          in: query
+          schema:
+            type: string
+      responses:
+        "200":
+          description: 控制线列表
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/ControlScore"
+                required:
+                  - items
+
+  /score-query:
+    get:
+      operationId: queryByScore
+      tags: [scores]
+      summary: 按分数查询可报高校
+      parameters:
+        - name: score
+          in: query
+          required: true
+          schema:
+            type: integer
+          description: 高考分数
+        - name: province
+          in: query
+          required: true
+          schema:
+            type: string
+          description: 所在省份
+        - name: subjects
+          in: query
+          schema:
+            type: string
+            default: 综合
+          description: 科类（综合/理科/文科）
+        - name: year
+          in: query
+          schema:
+            type: integer
+            default: 2024
+        - name: type
+          in: query
+          schema:
+            type: string
+          description: 院校类型筛选
+        - name: tag
+          in: query
+          schema:
+            type: string
+          description: 标签筛选
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: pageSize
+          in: query
+          schema:
+            type: integer
+            default: 20
+      responses:
+        "200":
+          description: 可报高校列表
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ScoreQueryResult"
+
+  /stats:
+    get:
+      operationId: getStats
+      tags: [stats]
+      summary: 获取平台统计数据
+      responses:
+        "200":
+          description: 统计数据
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Stats"
+
+  /provinces:
+    get:
+      operationId: listProvinces
+      tags: [stats]
+      summary: 获取省份列表
+      responses:
+        "200":
+          description: 省份列表
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  provinces:
+                    type: array
+                    items:
+                      type: string
+                required:
+                  - provinces
+
+  /university-types:
+    get:
+      operationId: listUniversityTypes
+      tags: [stats]
+      summary: 获取院校类型和标签
+      responses:
+        "200":
+          description: 类型和标签
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  types:
+                    type: array
+                    items:
+                      type: string
+                  tags:
+                    type: array
+                    items:
+                      type: string
+                  majorCategories:
+                    type: array
+                    items:
+                      type: string
+                required:
+                  - types
+                  - tags
+                  - majorCategories
+
 components:
   schemas:
     HealthStatus:
@@ -34,3 +334,229 @@ components:
       required:
         - status
 
+    University:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        province:
+          type: string
+        city:
+          type: string
+        type:
+          type: string
+        level:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+        rank_soft:
+          type: integer
+        rank_qs:
+          type: integer
+        established:
+          type: integer
+      required:
+        - id
+        - name
+        - province
+        - city
+        - type
+        - level
+        - tags
+
+    UniversityList:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/University"
+        total:
+          type: integer
+        page:
+          type: integer
+        pageSize:
+          type: integer
+        totalPages:
+          type: integer
+      required:
+        - items
+        - total
+        - page
+        - pageSize
+        - totalPages
+
+    Major:
+      type: object
+      properties:
+        code:
+          type: string
+        name:
+          type: string
+        category:
+          type: string
+        degree:
+          type: string
+        years:
+          type: integer
+        employment_rate:
+          type: string
+        avg_salary:
+          type: string
+      required:
+        - code
+        - name
+        - category
+        - degree
+        - years
+
+    MajorList:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/Major"
+        total:
+          type: integer
+        page:
+          type: integer
+        pageSize:
+          type: integer
+        totalPages:
+          type: integer
+        categories:
+          type: array
+          items:
+            type: string
+      required:
+        - items
+        - total
+        - page
+        - pageSize
+        - totalPages
+        - categories
+
+    ControlScore:
+      type: object
+      properties:
+        province:
+          type: string
+        year:
+          type: integer
+        batch:
+          type: string
+        subjects:
+          type: string
+        score:
+          type: integer
+      required:
+        - province
+        - year
+        - batch
+        - subjects
+        - score
+
+    SchoolScore:
+      type: object
+      properties:
+        school_name:
+          type: string
+        year:
+          type: integer
+        province:
+          type: string
+        subjects:
+          type: string
+        batch:
+          type: string
+        min_score:
+          type: integer
+        min_rank:
+          type: integer
+      required:
+        - school_name
+        - year
+        - province
+        - subjects
+        - batch
+        - min_score
+
+    ScoreQueryResult:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/ScoreQueryItem"
+        total:
+          type: integer
+        page:
+          type: integer
+        pageSize:
+          type: integer
+        totalPages:
+          type: integer
+        inputScore:
+          type: integer
+        province:
+          type: string
+      required:
+        - items
+        - total
+        - page
+        - pageSize
+        - totalPages
+        - inputScore
+        - province
+
+    ScoreQueryItem:
+      type: object
+      properties:
+        university:
+          $ref: "#/components/schemas/University"
+        score:
+          $ref: "#/components/schemas/SchoolScore"
+        scoreDiff:
+          type: integer
+          description: 分数差（正数表示超出，负数表示不足）
+        chance:
+          type: string
+          enum: [冲刺, 稳妥, 保底]
+      required:
+        - university
+        - score
+        - scoreDiff
+        - chance
+
+    Stats:
+      type: object
+      properties:
+        universities:
+          type: integer
+        majors:
+          type: integer
+        provinces:
+          type: integer
+        years:
+          type: array
+          items:
+            type: integer
+        count985:
+          type: integer
+        count211:
+          type: integer
+        doubleFirstClass:
+          type: integer
+      required:
+        - universities
+        - majors
+        - provinces
+        - years
+        - count985
+        - count211
+        - doubleFirstClass
