@@ -51,13 +51,13 @@ router.get("/universities", (req, res) => {
   if (tag) result = result.filter((u) => Array.isArray(u.tags) && u.tags.some((t: string) => t.includes(tag)));
 
   if (sortBy === "rank_qs") {
-    result.sort((a, b) => (a.rank_qs ?? 9999) - (b.rank_qs ?? 9999));
+    result.sort((a, b) => (a.rank_qs || 9999) - (b.rank_qs || 9999));
   } else if (sortBy === "name") {
     result.sort((a, b) => a.name.localeCompare(b.name, "zh"));
   } else if (sortBy === "established") {
-    result.sort((a, b) => (a.established ?? 9999) - (b.established ?? 9999));
+    result.sort((a, b) => (a.established || 9999) - (b.established || 9999));
   } else {
-    result.sort((a, b) => (a.rank_soft ?? 9999) - (b.rank_soft ?? 9999));
+    result.sort((a, b) => (a.rank_soft || 9999) - (b.rank_soft || 9999));
   }
 
   res.json(paginate(result, parseInt(page), parseInt(pageSize)));
